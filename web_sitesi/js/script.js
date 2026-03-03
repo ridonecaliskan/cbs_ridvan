@@ -63,12 +63,12 @@ const projects = [
 
 
 const photos = [
-  { id: "ph0", title: "Ay Manzarası",       place: "Ankara, Türkiye",   coords: [39.908931, 32.752556], img : "main/web_sitesi/images/1.jpeg" },
-  { id: "ph1", title: "Karagöl'de Kar Manzarası", place: "Ankara, Türkiye", coords: [40.411060, 32.913951], img: "main/web_sitesi/images/2.jpeg" },
-  { id: "ph2", title: "Amasya'da Kış Vakti",   place: "Amasya, Türkiye", coords: [40.650169, 35.807350], img: "main/web_sitesi/images/3.jpeg" },
-  { id: "ph3", title: "Kuzey Ankara", place: "Ankara, Türkiye",    coords: [40.008381, 32.893208], img: "main/web_sitesi/images/4.jpeg" },
-  { id: "ph4", title: "Karapürçek",   place: "Ankara, Türkiye",  coords: [39.968368, 32.951947], img: "main/web_sitesi/images/5.jpeg" },
-  { id: "ph5", title: "Sonbahar Manzarası",     place: "Ankara, Türkiye",   coords: [40.015389, 32.885467], img: "main/web_sitesi/images/6.jpeg" }
+  { id: "ph0", title: "Ay Manzarası",       place: "Ankara, Türkiye",   coords: [39.908931, 32.752556], img : "images/1.jpeg" },
+  { id: "ph1", title: "Karagöl'de Kar Manzarası", place: "Ankara, Türkiye", coords: [40.411060, 32.913951], img: "images/2.jpeg" },
+  { id: "ph2", title: "Amasya'da Kış Vakti",   place: "Amasya, Türkiye", coords: [40.650169, 35.807350], img: "images/3.jpeg" },
+  { id: "ph3", title: "Kuzey Ankara", place: "Ankara, Türkiye",    coords: [40.008381, 32.893208], img: "images/4.jpeg" },
+  { id: "ph4", title: "Karapürçek",   place: "Ankara, Türkiye",  coords: [39.968368, 32.951947], img: "images/5.jpeg" },
+  { id: "ph5", title: "Sonbahar Manzarası",     place: "Ankara, Türkiye",   coords: [40.015389, 32.885467], img: "images/6.jpeg" }
 ];
 
 // ========= PROJECTS =========
