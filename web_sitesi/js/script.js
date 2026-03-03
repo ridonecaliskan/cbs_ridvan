@@ -10,7 +10,7 @@ const projects = [
     desc: "Sentinel-2 dNBR ile yanık şiddeti sınıflandırma, vektörleştirme ve raporlama.",
     category: "GIS",
     tags: ["Sentinel-2", "dNBR", "Raster", "QGIS"],
-    github: "https://github.com/username/fire-severity"
+    github: "https://github.com/ridonecaliskan/cbs_ridvan"
   },
   {
     id: "p-quake",
@@ -19,7 +19,7 @@ const projects = [
     desc: "Ortofoto tileleme + YOLO tabanlı tespit ve görselleştirme pipeline’ı.",
     category: "GeoAI",
     tags: ["YOLO", "OBB", "Ortofoto", "Active Learning"],
-    github: "https://github.com/username/earthquake-damage"
+    github: "https://github.com/ridonecaliskan/cbs_ridvan"
   },
   {
     id: "p-rag",
@@ -28,7 +28,7 @@ const projects = [
     desc: "Doküman arama, özetleme ve aksiyon çıkarımı için LLM destekli iç sistem.",
     category: "Infra",
     tags: ["RAG", "LLM", "Vector DB", "Security"],
-    github: "https://github.com/username/enterprise-rag"
+    github: "https://github.com/ridonecaliskan/cbs_ridvan"
   },
   {
     id: "p-dr",
@@ -37,7 +37,7 @@ const projects = [
     desc: "Veeam job tasarımı, GFS retention, kapasite planlama ve raporlama.",
     category: "Infra",
     tags: ["Veeam", "GFS", "Capacity", "Restore Test"],
-    github: "https://github.com/username/veeam-gfs-playbook"
+    github: "https://github.com/ridonecaliskan/cbs_ridvan"
   },
   {
     id: "p-postgis",
@@ -46,7 +46,7 @@ const projects = [
     desc: "Yakınlık analizleri, indeksleme, overlay ve performans tuning.",
     category: "GIS",
     tags: ["PostGIS", "SQL", "Spatial Index", "ETL"],
-    github: "https://github.com/username/postgis-analytics"
+    github: "https://github.com/ridonecaliskan/cbs_ridvan"
   },
   {
     id: "p-ops",
@@ -55,7 +55,7 @@ const projects = [
     desc: "Host/cluster bakımı, raporlar ve küçük bakım scriptleri.",
     category: "Infra",
     tags: ["vSphere", "PowerCLI", "Automation", "Health"],
-    github: "https://github.com/username/vsphere-ops"
+    github: "https://github.com/ridonecaliskan/cbs_ridvan"
   }
 ];
 
