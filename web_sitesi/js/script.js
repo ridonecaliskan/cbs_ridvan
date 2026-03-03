@@ -63,7 +63,7 @@ const projects = [
 
 
 const photos = [
-  { id: "ph0", title: "Ay Manzarası",       place: "Ankara, Türkiye",   coords: [39.908931, 32.752556], img : "main\web_sitesi\images\1.jpeg" },
+  { id: "ph0", title: "Ay Manzarası",       place: "Ankara, Türkiye",   coords: [39.908931, 32.752556], img : "main/web_sitesi/images/1.jpeg" },
   { id: "ph1", title: "Karagöl'de Kar Manzarası", place: "Ankara, Türkiye", coords: [40.411060, 32.913951], img: "main/web_sitesi/images/2.jpeg" },
   { id: "ph2", title: "Amasya'da Kış Vakti",   place: "Amasya, Türkiye", coords: [40.650169, 35.807350], img: "main/web_sitesi/images/3.jpeg" },
   { id: "ph3", title: "Kuzey Ankara", place: "Ankara, Türkiye",    coords: [40.008381, 32.893208], img: "main/web_sitesi/images/4.jpeg" },
