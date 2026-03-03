@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kişisel Web Sitem | Rıdvan</title>
+
+  <!-- Leaflet -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="brand"><span class="dot"></span>Rıdvan ÇALIŞKAN</div>
+    <nav class="links">
+      <a href="index.html">Ana</a>
+      <a href="about.html">Hakkımda</a>
+      <a href="projects.html">Projelerim</a>
+      <a href="gallery.html">Foto Galeri</a>
+      <a href="contact.html">Bana Ulaşın</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="wrap hero">
+      <div class="card">
+        <h1>Merhaba, ben <span style="color:var(--brand2)">Rıdvan</span> 👋</h1>
+        <p>
+          Burada kendimi, projelerimi ve çektiğim fotoğrafları tek sayfada akıcı bir şekilde toparladım.
+	  Burası benim günlüğüm.	
+        </p>
+        <div class="pillrow">
+          <span class="pill">GeoAI</span>
+          <span class="pill">GIS</span>
+          <span class="pill">VMware/Veeam</span>
+          <span class="pill">Python</span>
+          <span class="pill">Remote Sensing</span>
+        </div>
+
+        <div class="cta">
+          <a class="btn primary" href="about.html">Ben Kimim?</a>
+          <a class="btn" href="contact.html">İletişim</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Hızlı Özet</h2>
+        <p>
+          <b>GeoAI:</b>
+Coğrafi veriler üzerinde yapay zekâ ve makine öğrenmesi tekniklerini kullanarak mekânsal analiz ve tahmin modelleri geliştiren disiplin.
+        </p>
+        <div class="hint" role="note">
+          <b>Günün Sözü</b>
+          <span>Sabır sıkıntının anahtarıdır.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="foot">
+    © <span id="year"></span> Rıdvan | Az laf, bol harita 
+  </div>
+
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bana Ulaşın | Rıdvan</title>
+
+  <!-- Leaflet -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="brand"><span class="dot"></span>Rıdvan ÇALIŞKAN</div>
+    <nav class="links">
+      <a href="index.html">Ana</a>
+      <a href="about.html">Hakkımda</a>
+      <a href="projects.html">Projelerim</a>
+      <a href="gallery.html">Foto Galeri</a>
+      <a href="contact.html">Bana Ulaşın</a>
+    </nav>
+  </header>
+
+  <section id="contact">
+    <div class="wrap">
+      <h2>Bana Ulaşın</h2>
+      <p>Proje fikirleri ve sorularınız için bana ulaşın.</p>
+
+      <div class="contact-grid">
+        <div class="card">
+          <form onsubmit="event.preventDefault(); alert('Demo form: Burayı e-posta servisine bağlayabiliriz 🙂');">
+            <label>Ad Soyad</label>
+            <input placeholder="Adınız" />
+
+            <label>E-posta</label>
+            <input type="email" placeholder="ornek@mail.com" />
+
+            <label>Mesaj</label>
+            <textarea placeholder="Merhaba..."></textarea>
+
+            <div class="cta" style="margin-top:14px;">
+              <button class="btn primary" type="submit">Gönder</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="mapbox">
+          <div id="contactMap" class="map" aria-label="İletişim haritası"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="foot">
+     © <span id="year"></span> Rıdvan | Az laf, bol harita
+  </div>
+
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
